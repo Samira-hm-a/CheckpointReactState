@@ -33,7 +33,7 @@ class Person extends Component {
               <Card.Title>{this.state.fullName}</Card.Title>
               <Card.Text>
                   {this.state.bio}
-              </Card.Text> <br/> </Card.Body>
+              </Card.Text>  </Card.Body>
              <ListGroup className="list-group-flush">
                 <ListGroupItem>{this.state.profession} </ListGroupItem>
              </ListGroup>
