@@ -30,7 +30,7 @@ class Person extends Component {
           <Card style={{ width: "20rem" , border:"6px"}}>
             <Card.Img variant="top" src={this.state.imgSrc} />
             <Card.Body>
-              <Card.Title>{this.state.fullName}</Card.Title>
+              <Card.Title className="Name">{this.state.fullName}</Card.Title>
               <Card.Text>
                   {this.state.bio}
               </Card.Text>  </Card.Body>
